@@ -1,12 +1,34 @@
+import { HeroChildComponent } from './components/hero-child.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeroParentComponent } from './components/hero-parent.component';
+import { NameChildComponent } from './components/name-child.component';
+import { NameParentComponent } from './components/name-parent.component';
+import { VersionChildComponent } from './components/version-child/version-child.component';
+import { VersionParentComponent } from './components/version-parent/version-parent.component';
+import { NavbarComponent } from './core/components/navbar/navbar.component';
+import { VoterComponent } from './components/voter/voter.component';
+import { VoteTakerComponent } from './components/votetaker/votetaker.component';
+import { CountdownTimerComponent } from './components/countdown-timer/countdown-timer.component';
+import { CountdownParentComponent } from './components/countdown-parent/countdown-parent.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroChildComponent,
+    HeroParentComponent,
+    NameChildComponent,
+    NameParentComponent,
+    VersionChildComponent,
+    VersionParentComponent,
+    NavbarComponent,
+    VoterComponent,
+    VoteTakerComponent,
+    CountdownTimerComponent,
+    CountdownParentComponent
   ],
   imports: [
     BrowserModule,
